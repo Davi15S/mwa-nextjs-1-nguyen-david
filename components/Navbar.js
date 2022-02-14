@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
+import {MenuAlt1Icon} from "@heroicons/react/solid"
 
 function Navbar() {
     return (
@@ -19,9 +20,12 @@ function Navbar() {
                         <p>Portfolio</p>
                         <p>Contact</p>
                     </div>
-                    <div className="hidden sm:flex font-navbar py-[13px] px-[56.5px] border-white border-[1px] rounded-md">
+                    <div className="hidden sm:flex font-navbar py-[13px] px-[56.5px] border-white border-opacity-25 border-[1px] rounded-md hover:bg-white hover:bg-opacity-20 transition-all duration-200 cursor-pointer">
                         Sign in
                     </div>
+                </div>
+                <div>
+                    <MenuAlt1Icon className="h-10 absolute right-8 top-[27px] sm:hidden"/>
                 </div>
             </div>
         </div>
