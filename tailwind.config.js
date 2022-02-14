@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    
+    fontFamily: {
+      "logo": ["Alfa Slab One", 'cursive'],
+      "navbar": ['DM Sans', "sans-serif"]
+    }
   },
   plugins: [],
 }
