@@ -8,7 +8,7 @@ module.exports = {
     
     fontFamily: {
       "logo": ["Alfa Slab One", 'cursive'],
-      "navbar": ['DM Sans', "sans-serif"]
+      "basic": ['DM Sans', "sans-serif"]
     }
   },
   plugins: [],
