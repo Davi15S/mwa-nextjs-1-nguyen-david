@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Content() {
     return (
-        <div className='min-h-[768px] bg-[#FFF2DD] px-[14px] lg:px-[135px] grid grid-cols-1 xl:grid-cols-2 gap-x-20'>
+        <div className='min-h-[768px] bg-[#FFF2DD] px-[14px] xl:px-[135px] md:px-20 grid grid-cols-1 lg:grid-cols-2 gap-x-20'>
             <Image src={image} objectFit="contain" />
             <div className="space-y-4 self-center mb-10">
                 <p className='text-[#BE6361] text-xl font-basic'>Dico nullam</p>

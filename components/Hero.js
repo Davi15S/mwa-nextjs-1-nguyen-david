@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Hero() {
     return (
-        <div className="h-[676px] bg-[#FF8482] grid grid-cols-1 xl:grid-cols-2 px-[14px] lg:px-[135px] gap-x-10">
+        <div className="h-[676px] bg-[#FF8482] grid grid-cols-1 xl:grid-cols-2 px-[14px] xl:px-[135px] md:px-20 gap-x-10">
             <div className='space-y-4 self-center'>
                 <p className='text-white font-basic'>Delectus instructior</p>
                 <p className='text-white font-logo text-6xl xl:text-7xl 2xl:text-8xl'>Vide legimus consectetuer</p>

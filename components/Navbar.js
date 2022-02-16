@@ -14,7 +14,7 @@ function Navbar() {
                 </style>
             </Head>
             <div className='text-white bg-[#FF8482]'>
-                <div className="font-normal px-[14px] lg:px-[135px] py-[16px] flex items-center justify-between">
+                <div className="font-normal px-[14px] xl:px-[135px] md:px-20 py-[16px] flex items-center justify-between">
                     <div className="font-logo cursor-pointer text-[40px]">LOGO</div>
                     <div className="items-center hidden sm:flex space-x-5 font-basic cursor-pointer">
                         <p>Portfolio</p>

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Contacts from '../components/Offers'
 import Content from '../components/Content'
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Content />
+      <Contacts />
     </div>
   )
 }
