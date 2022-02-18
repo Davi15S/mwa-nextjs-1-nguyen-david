@@ -10,7 +10,7 @@ import image from "../media/marginalia-coming-soon.svg"
 
 function Ladder() {
     return (
-        <div className='min-h-[768px] bg-[#FFF2DD] px-[14px] xl:px-[135px] md:px-20 grid grid-cols-1 lg:grid-cols-2 gap-x-10'>
+        <div className='min-h-[768px] bg-[#FFF2DD] padding grid grid-cols-1 lg:grid-cols-2 gap-x-10'>
             <div className='space-y-8 py-6 self-center'>
                 <div className='redH2'>Mel solum</div>
                 <div className='H1 whitespace-nowrap'>Mazim iudico</div>

@@ -5,6 +5,7 @@ import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Ladder from '../components/Ladder'
 import Gallery from '../components/Gallery'
+import TrySection from '../components/TrySection'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Contacts />
       <Ladder />
       <Gallery />
+      <TrySection />
     </div>
   )
 }

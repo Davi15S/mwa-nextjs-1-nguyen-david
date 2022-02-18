@@ -12,4 +12,7 @@
     .galleryItem {
         @apply w-full flex items-center justify-center lg:w-1/2 p-10
     }
+    .padding {
+        @apply px-[14px] xl:px-[135px] md:px-20
+    }
 }

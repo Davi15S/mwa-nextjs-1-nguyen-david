@@ -7,7 +7,7 @@ import Button from './Button'
 
 function Offers() {
   return (
-    <div className='min-h-[768px] px-[14px] xl:px-[135px] md:px-20 py-16 lg:py-20'>
+    <div className='min-h-[768px] padding py-16 lg:py-20'>
       <div className='flex flex-col items-center gap-y-8'>
         <p className='redH2'>Nominavi suavitate</p>
         <p className='H1'>Offendit persecuti</p>

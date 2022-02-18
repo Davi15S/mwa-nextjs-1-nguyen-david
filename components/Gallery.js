@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 function Gallery() {
     return (
-        <div className='min-h-[768px] px-[14px] xl:px-[135px] md:px-20 py-16 lg:py-16 space-y-6'>
+        <div className='min-h-[768px] padding py-16 lg:py-16 space-y-6'>
             <div className='flex flex-col gap-y-4 lg:flex-row lg:justify-between lg:items-center'>
                 <div className='space-y-4'>
                     <p className='redH2'>Vim dolore</p>
