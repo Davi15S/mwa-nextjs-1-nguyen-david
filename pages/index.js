@@ -3,6 +3,8 @@ import Contacts from '../components/Offers'
 import Content from '../components/Content'
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
+import Ladder from '../components/Ladder'
+import Test from '../components/Test'
 
 export default function Home() {
   return (
@@ -17,6 +19,7 @@ export default function Home() {
       <Hero />
       <Content />
       <Contacts />
+      <Ladder />
     </div>
   )
 }
