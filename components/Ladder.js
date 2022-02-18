@@ -12,8 +12,8 @@ function Ladder() {
     return (
         <div className='min-h-[768px] bg-[#FFF2DD] px-[14px] xl:px-[135px] md:px-20 grid grid-cols-1 lg:grid-cols-2 gap-x-10'>
             <div className='space-y-8 py-6 self-center'>
-                <div className='text-[#BE6361] font-basic text-xl'>Mel solum</div>
-                <div className='font-logo text-4xl lg:text-6xl whitespace-nowrap'>Mazim iudico</div>
+                <div className='redH2'>Mel solum</div>
+                <div className='H1 whitespace-nowrap'>Mazim iudico</div>
                 <div className="space-y-4">
                     <Item img={heart} text="Bonorum minimum et sit tritani te, qui feugait electram"/>
                     <Item img={star} text="Cum ei assum tation homero mel corpora consectetuer"/>

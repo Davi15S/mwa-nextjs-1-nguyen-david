@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .redH2 {
+        @apply text-[#BE6361] font-basic text-xl
+    }
+    .H1 {
+        @apply font-logo text-4xl lg:text-6xl 
+    }
+    .galleryItem {
+        @apply w-full flex items-center justify-center lg:w-1/2 p-10
+    }
+}

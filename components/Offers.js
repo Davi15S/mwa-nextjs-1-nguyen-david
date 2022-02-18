@@ -7,10 +7,10 @@ import Button from './Button'
 
 function Offers() {
   return (
-    <div className='min-h-[768px] px-[14px] xl:px-[135px] md:px-20 py-16 lg:py-36'>
+    <div className='min-h-[768px] px-[14px] xl:px-[135px] md:px-20 py-16 lg:py-20'>
       <div className='flex flex-col items-center gap-y-8'>
-        <p className='text-[#BE6361] font-basic text-xl'>Nominavi suavitate</p>
-        <p className='font-logo text-4xl'>Offendit persecuti</p>
+        <p className='redH2'>Nominavi suavitate</p>
+        <p className='H1'>Offendit persecuti</p>
         <p className='text-xl'>Eu pro ludus dignissim. Eos debet molestiae constituto ne, quo consul interesset ei, cotidieque theophrastus ea his.</p>
         <div className='grid grid-cols-1 gap-y-16 mt-10 lg:mt-20 md:grid-cols-3'>
           <Item i="01" img={stats} text="Possim" txt="An animal assentior nam, sed qualisque deterruisset ea qui melius erroribus" />
