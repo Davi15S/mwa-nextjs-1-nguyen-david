@@ -6,6 +6,11 @@ import Navbar from "../components/Navbar"
 import Ladder from '../components/Ladder'
 import Gallery from '../components/Gallery'
 import TrySection from '../components/TrySection'
+import ShoppingCart from '../components/ShoppingCart'
+import Subscription from '../components/Subscription'
+import Form from '../components/Form'
+import Footer from '../components/Footer'
+import Copyright from '../components/Copyright'
 
 export default function Home() {
   return (
@@ -23,6 +28,11 @@ export default function Home() {
       <Ladder />
       <Gallery />
       <TrySection />
+      <ShoppingCart />
+      <Subscription />
+      <Form />
+      <Footer />
+      <Copyright />
     </div>
   )
 }
