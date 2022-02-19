@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import image from "../media/marginalia-waiting.svg"
+import Button from './Button'
 
 function Form() {
   return (
@@ -10,9 +11,10 @@ function Form() {
             <p className='H1'>Suas semper</p>
             <p className='font-semibold'>Deseruisse definitionem his et, an has veri integre abhorreant, nam alii epicurei et.</p>
             <form className='flex flex-col gap-y-4'>
-                <input className='border-[1px] border-[#DADADA] px-4 py-3 rounded-md max-w-[470px]' type="email" placeholder="Email"/>
-                <textarea className='border-[1px] border-[#DADADA] px-4 py-3 rounded-md resize-none max-h-[96px] max-w-[470px]' cols="40" rows="5" placeholder="Message"></textarea>
+                <input className='border-[1px] outline-none font-semibold border-[#DADADA] px-4 py-3 rounded-md max-w-[470px]' type="email" placeholder="Email"/>
+                <textarea className='border-[1px] outline-none font-semibold border-[#DADADA] px-4 py-3 rounded-md resize-none max-h-[96px] max-w-[470px]' cols="40" rows="5" placeholder="Message"></textarea>
             </form>
+            <Button text="Submit" style="text-white bg-[#BE6361] lg:mt-16"/>
         </div>
         <Image src={image} objectFit="contain" />
     </div>
