@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import checkmark from "../media/checkmark.svg"
+import checkmark from "../../media/checkmark.svg"
 import Button from './Button'
 
 function Subscription() {

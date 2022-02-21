@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../media/marginalia-productive-work.svg"
+import hero from "../../media/marginalia-productive-work.svg"
 import Image from 'next/image'
 import Button from './Button'
 

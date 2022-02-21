@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import stats from "../media/stats.svg"
-import list from "../media/list.svg"
-import work from "../media/work.svg"
+import stats from "../../media/stats.svg"
+import list from "../../media/list.svg"
+import work from "../../media/work.svg"
 import Button from './Button'
 
 function Offers() {

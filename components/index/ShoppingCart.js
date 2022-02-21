@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import image from "../media/marginalia-online-shopping.svg"
-import checkmark from "../media/checkmark.svg"
+import image from "../../media/marginalia-online-shopping.svg"
+import checkmark from "../../media/checkmark.svg"
 
 function ShoppingCart() {
     return (

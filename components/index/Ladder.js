@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import heart from "../media/heart.svg"
-import star from "../media/star.svg"
-import rocket from "../media/rocket.svg"
-import broadcast from "../media/broadcast.svg"
-import user from "../media/user.svg"
+import heart from "../../media/heart.svg"
+import star from "../../media/star.svg"
+import rocket from "../../media/rocket.svg"
+import broadcast from "../../media/broadcast.svg"
+import user from "../../media/user.svg"
 import Button from './Button'
-import image from "../media/marginalia-coming-soon.svg"
+import image from "../../media/marginalia-coming-soon.svg"
 
 function Ladder() {
     return (

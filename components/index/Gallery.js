@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Button from "./Button"
 import Flickity from 'react-flickity-component'
-import img from "../media/img.svg"
-import img2 from "../media/img2.svg"
+import img from "../../media/img.svg"
+import img2 from "../../media/img2.svg"
 import Image from 'next/image'
 
 function Gallery() {
@@ -28,7 +28,8 @@ function Carousel() {
                 adaptiveHeight: true,
                 freeScroll: false,
                 draggable: false,
-                groupCells: true
+                groupCells: true,
+                prevNextButtons: false,
             }}>
             <div className='galleryItem'><GalleryItem img={img} text="Postea nam at posse dicta" /></div>
             <div className='galleryItem'><GalleryItem img={img2} text="Ea vivendo omnesque" /></div>

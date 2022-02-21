@@ -1,16 +1,17 @@
 import Head from 'next/head'
-import Contacts from '../components/Offers'
-import Content from '../components/Content'
-import Hero from "../components/Hero"
-import Navbar from "../components/Navbar"
-import Ladder from '../components/Ladder'
-import Gallery from '../components/Gallery'
-import TrySection from '../components/TrySection'
-import ShoppingCart from '../components/ShoppingCart'
-import Subscription from '../components/Subscription'
-import Form from '../components/Form'
-import Footer from '../components/Footer'
-import Copyright from '../components/Copyright'
+import Contacts from '../components/index/Offers'
+import Content from '../components/index/Content'
+import Hero from "../components/index/Hero"
+import Navbar from "../components/index/Navbar"
+import Ladder from '../components/index/Ladder'
+import Gallery from '../components/index/Gallery'
+import TrySection from '../components/index/TrySection'
+import ShoppingCart from '../components/index/ShoppingCart'
+import Subscription from '../components/index/Subscription'
+import Form from '../components/index/Form'
+import Footer from '../components/index/Footer'
+import Copyright from '../components/index/Copyright'
+import Contact from '../components/index/Contact'
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
       <ShoppingCart />
       <Subscription />
       <Form />
+      <Contact />
       <Footer />
       <Copyright />
     </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import image from "../media/marginalia-waiting.svg"
+import image from "../../media/marginalia-waiting.svg"
 import Button from './Button'
 
 function Form() {

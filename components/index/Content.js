@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../media/marginalia-unsubscribed.svg"
+import image from "../../media/marginalia-unsubscribed.svg"
 import Image from 'next/image'
 import Button from './Button'
 
