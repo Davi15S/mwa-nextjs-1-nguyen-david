@@ -1,0 +1,19 @@
+.navbar-link {
+    position: relative;
+}
+
+.navbar-link::after{
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    top: 0;
+    position: absolute;
+    border-bottom: 2px solid white;
+    transform: scale(0,1);
+    transition: all 300ms;
+}
+
+.navbar-link:hover::after{
+    transform: scale(1,1);
+}

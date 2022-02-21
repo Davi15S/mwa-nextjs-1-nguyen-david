@@ -17,7 +17,7 @@ function Offers() {
           <Item i="02" img={work} text="Vivendo" txt="Assum ubique quodsi sea ad partem vocent vel, ius id viris utinam" />
           <Item i="03" img={list} text="Deterruisset" txt="Nam natum volutpat eu natum elitr vel te id qui purto dicit" />
         </div>
-        <Button text="Learn More" style="text-white bg-[#BE6361] lg:mt-16"/>
+        <Button text="Learn More" style="text-white bg-[#BE6361] lg:mt-16 hover:bg-opacity-90 duration-200 transition-all"/>
       </div>
     </div>
   )

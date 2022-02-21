@@ -10,7 +10,7 @@ function Hero() {
                 <p className='text-white font-basic'>Delectus instructior</p>
                 <p className='text-white font-logo text-4xl xl:text-6xl 2xl:text-8xl'>Vide legimus consectetuer</p>
                 <form className='flex flex-col gap-y-4 md:flex-row md:items-center gap-x-10'>
-                    <input className='font-basic h-12 p-4 flex-grow outline-none' type="email" placeholder="Email"/>
+                    <input className='font-basic h-12 p-4 flex-grow outline-none border-[1px] border-[#DADADA] rounded-md' type="email" placeholder="Email"/>
                     <Button text="Submit" style="border-black border-2 bg-white hover:bg-opacity-90 transition-all duration-200 max-w-[13rem]"/>
                 </form>
             </div>

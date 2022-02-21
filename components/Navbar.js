@@ -1,24 +1,15 @@
-import Head from 'next/head'
 import React from 'react'
 import {MenuAlt1Icon} from "@heroicons/react/outline"
 
 function Navbar() {
     return (
         <div>
-            <Head>
-                <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-                </style>
-                <style>
-                    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
-                </style>
-            </Head>
             <div className='text-white bg-[#FF8482]'>
                 <div className="font-normal px-[14px] xl:px-[135px] md:px-20 py-[16px] flex items-center justify-between">
                     <div className="font-logo cursor-pointer text-[40px]">LOGO</div>
                     <div className="items-center hidden sm:flex space-x-5 font-basic cursor-pointer">
-                        <p>Portfolio</p>
-                        <p>Contact</p>
+                        <p className='navbar-link'>Portfolio</p>
+                        <p className='navbar-link'>Contact</p>
                     </div>
                     <div className="hidden sm:flex font-basic py-[13px] px-[56.5px] border-white border-opacity-25 hover:border-opacity-100 border-[1px] rounded-md hover:bg-white hover:bg-opacity-20 transition-all duration-200 cursor-pointer">
                         Sign in

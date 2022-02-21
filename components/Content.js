@@ -11,7 +11,7 @@ function Content() {
                 <p className='redH2'>Dico nullam</p>
                 <p className='H1'>Vim graeco principes</p>
                 <p className='text-xl'>Quo ex ocurreret quaerendum. Mel cu ancillae similique. Mei no ubique persecuti, at sit iusto aliquam interpretaris.</p>
-                <Button text="Explore" style="text-white bg-[#BE6361]"/>
+                <Button text="Explore" style="text-white bg-[#BE6361] hover:bg-opacity-90 duration-200 transition-all"/>
             </div>
         </div>
     )

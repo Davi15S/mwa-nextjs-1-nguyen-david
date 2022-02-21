@@ -10,11 +10,11 @@ function Form() {
             <p className="redH2">Percipit mea</p>
             <p className='H1'>Suas semper</p>
             <p className='font-semibold'>Deseruisse definitionem his et, an has veri integre abhorreant, nam alii epicurei et.</p>
-            <form className='flex flex-col gap-y-4'>
+            <form className='flex flex-col gap-4'>
                 <input className='border-[1px] outline-none font-semibold border-[#DADADA] px-4 py-3 rounded-md max-w-[470px]' type="email" placeholder="Email"/>
                 <textarea className='border-[1px] outline-none font-semibold border-[#DADADA] px-4 py-3 rounded-md resize-none max-h-[96px] max-w-[470px]' cols="40" rows="5" placeholder="Message"></textarea>
+                <Button text="Submit" style="text-white bg-[#BE6361] hover:bg-opacity-90 duration-200 transition-all"/>
             </form>
-            <Button text="Submit" style="text-white bg-[#BE6361] lg:mt-16"/>
         </div>
         <Image src={image} objectFit="contain" />
     </div>

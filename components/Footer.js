@@ -23,9 +23,9 @@ function Footer() {
                     <p className='font-logo text-white text-4xl'>LOGO</p>
                     <p className='font-semibold text-white'>Sit alii tantas viderer no. An mel nostrum appareat. Ad consul facilis est. Vix habeo scaevola percipitur ne, qui noster abhorreant ne.</p>
                     <div className='flex gap-x-4'>
-                        <div className='cursor-pointer transition-all hover:scale-110 duration-200'><Image src={facebook} objectFit="contain" /></div>
-                        <div className='cursor-pointer transition-all hover:scale-110 duration-200'><Image src={twitter} objectFit="contain" /></div>
-                        <div className='cursor-pointer transition-all hover:scale-110 duration-200'><Image src={instagram} objectFit="contain" /></div>
+                        <div className='cursor-pointer transition-all hover:scale-110 duration-200 w-[30px] flex items-center justify-center'><Image src={facebook} objectFit="contain" /></div>
+                        <div className='cursor-pointer transition-all hover:scale-110 duration-200 w-[30px] flex items-center justify-center'><Image src={twitter} objectFit="contain" /></div>
+                        <div className='cursor-pointer transition-all hover:scale-110 duration-200 w-[30px] flex items-center justify-center'><Image src={instagram} objectFit="contain" /></div>
                     </div>
                 </div>
                 <div className='grid grid-cols-1 mt-20 lg:mt-0 md:grid-cols-3'>

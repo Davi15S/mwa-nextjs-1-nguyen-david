@@ -26,7 +26,6 @@ function Carousel() {
             options={{
                 autoPlay:5000,
                 adaptiveHeight: true,
-                prevNextButtons: false,
                 freeScroll: false,
                 draggable: false,
                 groupCells: true
