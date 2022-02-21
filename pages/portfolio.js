@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from "../components/index/Navbar"
 import Head from "next/head"
+import Hero from '../components/portfolio/Hero'
+import GalleryNavbar from '../components/portfolio/GalleryNavbar'
 
 function Portfolio() {
     return (
@@ -20,6 +22,8 @@ function Portfolio() {
 
 
             <Navbar />
+            <Hero />
+            <GalleryNavbar />
         </div>
     )
 }
