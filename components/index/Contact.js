@@ -4,11 +4,11 @@ import mail from "../../media/mail.svg"
 import mobile from "../../media/device-mobile.svg"
 import Image from 'next/image'
 
-function Contact() {
+function Contact({bg, textColor}) {
     return (
-        <div className="min-h-[432px] padding bg-[#BE6361] py-28">
+        <div className={`min-h-[432px] padding bg-[${bg}] py-28`}>
             <div className='space-y-10'>
-                <div className='font-logo text-white text-4xl lg:text-6xl text-center'>Timeam scriptorem</div>
+                <div className={`font-logo text-${textColor} text-4xl lg:text-6xl text-center`}>Timeam scriptorem</div>
                 <div className='grid grid-cols-1 justify-items-center gap-y-4 lg:grid-cols-3 gap-x-4'>
                     <ContactItem img={map} h1="Office" text="Mel erat timeam, 123 45-67" />
                     <ContactItem img={mobile} h1="Call us" text="+1 234 567 89 00" />

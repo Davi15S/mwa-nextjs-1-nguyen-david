@@ -39,7 +39,7 @@ export default function Home() {
       <ShoppingCart />
       <Subscription />
       <Form />
-      <Contact />
+      <Contact bg="#BE6361" textColor="white"/>
       <Footer />
       <Copyright />
     </div>
